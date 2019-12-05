@@ -1,0 +1,91 @@
+{
+    "PriorBox": [
+        {
+            "min_size":[12.0],
+            "max_size":[],
+            "aspect_ratio":[],
+            "flip":0,
+            "clip":0,
+            "variance":[0.1, 0.1, 0.2, 0.2],
+            "step_w":4,
+            "step_h":4,
+            "offset":0.5,
+            "width":0,
+            "height":0,
+            "loc_layer":"ConvNd_10",
+            "conf_layer":"ConvNd_38"
+        },
+        {
+            "min_size":[16.0,22.0],
+            "max_size":[],
+            "aspect_ratio":[],
+            "flip":0,
+            "clip":0,
+            "variance":[0.1,0.1,0.2,0.2],
+            "step_w":8,
+            "step_h":8,
+            "offset":0.5,
+            "width":0,
+            "height":0,
+            "loc_layer":"ConvNd_17",
+            "conf_layer":"ConvNd_39"
+        },
+        {
+            "min_size":[32.0 , 42.0, 56.0],
+            "max_size":[],
+            "aspect_ratio":[],
+            "flip":0,
+            "clip":0,
+            "variance":[0.1,0.1,0.2,0.2],
+            "step_w":16,
+            "step_h":16,
+            "offset":0.5,
+            "width":0,
+            "height":0,
+            "loc_layer":"ConvNd_24",
+            "conf_layer":"ConvNd_40"
+        },
+        {
+            "min_size":[70.0, 90.0, 120.0],
+            "max_size":[],
+            "aspect_ratio":[],
+            "flip":0,
+            "clip":0,
+            "variance":[0.1,0.1,0.2,0.2],
+            "step_w":32,
+            "step_h":32,
+            "offset":0.5,
+            "width":0,
+            "height":0,
+            "loc_layer":"ConvNd_31",
+            "conf_layer":"ConvNd_41"
+        },
+        {
+            "min_size":[160.0, 210.0 , 270.0, 340.0],
+            "max_size":[],
+            "aspect_ratio":[],
+            "flip":0,
+            "clip":0,
+            "variance":[0.1,0.1,0.2,0.2],
+            "step_w":64,
+            "step_h":64,
+            "offset":0.5,
+            "width":0,
+            "height":0,
+            "loc_layer":"ConvNd_37",
+            "conf_layer":"ConvNd_42"
+        }
+    ],
+
+    "DetectionOutput": {
+        "num_classes": 2,
+        "nms_threshold": 0.4,
+        "top_k": 200,
+        "keep_top_k": 100,
+        "confidence_threshold": 0.4,
+        "background_label_id": 0,
+        "code_type": 0
+    }
+
+
+}
